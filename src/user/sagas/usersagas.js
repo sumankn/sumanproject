@@ -24,13 +24,13 @@ import {
   deleteUserError,
   updateUserSuccess,
   updateUserError,
-} from "./actions";
+} from "./actions/actions";
 import {
   loadUsersApi,
   createUserApi,
   deleteUserApi,
   updateUserApi,
-} from "./api";
+} from "./api/api";
 
 function* onLoadUsersStartAsync() {
   try {

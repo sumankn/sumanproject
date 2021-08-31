@@ -4,10 +4,10 @@
 
 import { combineReducers } from "redux";
 
-import usersReducer from "./reducer";
+import usersreducer from "./reducer";
 
-const rootReducer = combineReducers({
-  data: usersReducer,
+const rootreducer = combineReducers({
+  data: usersreducer,
 });
 
-export default rootReducer;
+export default rootreducer;

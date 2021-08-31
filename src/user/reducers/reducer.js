@@ -10,7 +10,7 @@ const initialState = {
   error: null,
 };
 
-const usersReducer = (state = initialState, action) => {
+const Reducer = (state = initialState, action) => {
   switch (action.type) {
     case types.LOAD_USERS_START:
     case types.CREATE_USER_START:
@@ -52,4 +52,4 @@ const usersReducer = (state = initialState, action) => {
   }
 };
 
-export default usersReducer;
+export default Reducer;
