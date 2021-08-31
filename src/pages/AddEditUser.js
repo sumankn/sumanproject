@@ -7,7 +7,7 @@ import React, { useState, useEffect } from "react";
 import { MDBValidation, MDBInput, MDBBtn } from "mdb-react-ui-kit";
 import { useHistory, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { createUserStart, updateUserStart } from "../redux/actions";
+import { createUserStart, updateUserStart } from "../user/actions/actions";
 import { toast } from "react-toastify";
 
 const initialState = {

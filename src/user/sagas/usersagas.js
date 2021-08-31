@@ -2,7 +2,7 @@
 // author :  suman            //
 // Date   :  20/08/2021      //
 
-import * as types from "./ActionTypes";
+import * as types from "../actions/actiontypes";
 
 import {
   take,
@@ -24,13 +24,13 @@ import {
   deleteUserError,
   updateUserSuccess,
   updateUserError,
-} from "./actions/actions";
+} from "../actions/actions";
 import {
   loadUsersApi,
   createUserApi,
   deleteUserApi,
   updateUserApi,
-} from "./api/api";
+} from "../api/api";
 
 function* onLoadUsersStartAsync() {
   try {

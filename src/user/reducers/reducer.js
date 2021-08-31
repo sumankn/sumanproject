@@ -2,7 +2,7 @@
 //  author :  suman            //
 //  Date   :  24/08/2021      //
 
-import * as types from "./ActionTypes";
+import * as types from "../actions/actiontypes";
 
 const initialState = {
   users: [],
