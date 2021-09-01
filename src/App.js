@@ -5,10 +5,10 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import AddEditUser from "./pages/AddEditUser";
-import UserInfo from "./pages/UserInfo";
-import About from "./pages/About";
+import Home from "./pages/home/Home";
+import AddEditUser from "./pages/addedituser/AddEditUser";
+import UserInfo from "./pages/userinfo/UserInfo";
+import About from "./pages/about/About";
 import Header from "./component/Header";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

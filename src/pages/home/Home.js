@@ -4,7 +4,7 @@
 
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteUserStart, loadUsersStart } from "../user/actions/actions";
+import { deleteUserStart, loadUsersStart } from "../../user/actions/actions";
 import {
   MDBTable,
   MDBTableHead,
